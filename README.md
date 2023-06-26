@@ -10,8 +10,15 @@
 ## About this Project
 
 
+## Installation
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+
 ### Backend Setup
-3. Run `php artisan serve` to start the Laravel development server. You can access your application in a web browser through the specified URL (usually `http://localhost:8000`).
+1. Run `composer install` to install the project's PHP dependencies using Composer, the PHP dependency manager.
+2. Copy the `.env.example` file and rename it to `.env`. This file is used to store configuration settings for your application.
+3. Run `php artisan key:generate` to generate a unique application key used for encryption and other security-related purposes. The key will be automatically saved in the `.env` file.
+4. Run `php artisan serve` to start the Laravel development server. You can access your application in a web browser through the specified URL (usually `http://localhost:8000`).
 
 ### Frontend Setup
 1. Make sure you have Node.js and npm installed on your machine.

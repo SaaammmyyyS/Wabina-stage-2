@@ -24,5 +24,5 @@ Route::get('/', function () {
 // });
 
 Route::controller(UserController::class)->group(function(){
-    Route::get('/favorite', 'Favorite')->name('favorite');
+    Route::get('/programming-language', 'Favorite')->name('favorite');
 });
